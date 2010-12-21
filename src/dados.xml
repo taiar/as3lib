@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+  <senha>114455</senha>
+  <url>http://localhost/twinclip/_escreveDados.php</url>
+  <promo>
+    <id>0</id>
+    <clip>_clip_coca_.swf</clip>
+    <ativo>true</ativo>
+    <de>0,00</de>
+    <por>0,00</por>
+    <desc>0,00</desc>
+  </promo>
+  <promo>
+    <id>1</id>
+    <clip>_clip_kuat_.swf</clip>
+    <ativo>false</ativo>
+    <de>0,00</de>
+    <por>0,00</por>
+    <desc>0,00</desc>
+  </promo>
+  <promo>
+    <id>2</id>
+    <clip>_clip_fanta_.swf</clip>
+    <ativo>false</ativo>
+    <de>0,00</de>
+    <por>0,00</por>
+    <desc>0,00</desc>
+  </promo>
+</menu>
