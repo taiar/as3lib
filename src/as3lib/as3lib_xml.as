@@ -1,4 +1,4 @@
-﻿package 
+﻿package as3lib
 {
 	import flash.net.URLRequest;
 	import flash.net.URLLoader;
