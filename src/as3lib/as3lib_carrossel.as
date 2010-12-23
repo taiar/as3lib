@@ -93,13 +93,19 @@
 				this.loader.contentLoaderInfo.addEventListener(Event.INIT, this.setFrameListener);
 			}
 		}
-
+		
+		/**
+		 * Transição entre o video ser carregado e a sua exibição
+		 */
 		private function setFrameListener(e:Event):void
 		{
 			this.loader.addEventListener(Event.ENTER_FRAME, this.checkFrame);
 			e.currentTarget.removeEventListener(Event.INIT, this.setFrameListener);
 		}
 
+		/**
+		 * Checka se o filme chegou ao fim e começa a passar o próximo
+		 */
 		private function checkFrame(e:Event):void
 		{
 			if (((this.loader.getChildAt(0) as MovieClip).totalFrames == (this.loader.getChildAt(0) as MovieClip).currentFrame) ||
