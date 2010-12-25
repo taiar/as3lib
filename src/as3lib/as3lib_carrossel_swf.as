@@ -16,6 +16,7 @@
 	 * As listas de clips e dados em geral devem ser setados com os 
 	 * métodos da classe
 	 */
+
 	public class as3lib_carrossel_swf
 	{
 		public var sources:Array;//lista dos paths dos clips que serão carregados
